@@ -1,0 +1,61 @@
+body {
+  background: url("../public/HealthCare.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-blend-mode: normal; /* Makes the image more visible */
+  background-color: rgba(250, 240, 240, 0.3); /* Reduce opacity of overlay */
+  color: #00e5ff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: rgba(30, 30, 30, 0.6); /* Lower transparency */
+  backdrop-filter: blur(2px); /* Reduce blur to make image sharper */
+}
+
+/* Full-Width Navigation Bar */
+nav {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.9
+  ); /* Pure Black with slight transparency */
+  padding: 15px 0;
+  border-bottom: 3px solid #00e5ff; /* Neon Cyan Border */
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between; /* Spread items evenly */
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+nav ul li {
+  flex: 1; /* Ensures equal spacing */
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #00e5ff; /* Neon Cyan */
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  color: #ff00ff; /* Bright Magenta for a Neon Glow Effect */
+  text-shadow: 0 0 10px #ff00ff;
+}

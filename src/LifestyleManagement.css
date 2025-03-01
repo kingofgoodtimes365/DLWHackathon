@@ -1,0 +1,84 @@
+.lifestyle-container {
+  background: #1e1e2f;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  color: #4caf50;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.options {
+  margin: 20px 0;
+}
+
+.options button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.options button:hover,
+.options button.selected {
+  background: #4caf50;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1rem;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background: #2a2a3b;
+  color: white;
+}
+
+.submit-btn {
+  background: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+
+.submit-btn:hover {
+  background: #388e3c;
+}
+
+.result-box {
+  background: #333;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
