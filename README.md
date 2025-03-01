@@ -22,12 +22,12 @@ This project is an **AI-driven web application** designed to provide **proactive
 - **Activity tracking & goal setting** for sustainable well-being.
 
 ## 🏗️ Tech Stack
-- **Frontend:** React.js, Tailwind CSS
+- **Frontend:** React.js, CSS
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **AI/ML:** Python (TensorFlow, NLP, OpenAI API)
-- **Authentication:** JWT, Firebase Auth
-- **Deployment:** Docker, AWS/GCP
+- **Dataset:** https://www.kaggle.com/datasets/ziya07/diet-recommendations-dataset
+    https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
 
 ## 📂 Project Structure
 ```
